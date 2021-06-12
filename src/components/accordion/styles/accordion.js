@@ -30,7 +30,7 @@ export const Item = styled.div`
 	color: white;
 	margin-bottom: 10px;
 	margin: auto;
-	max-width: 670px;
+	max-width: 800px;
 	width: 100%;
 
 	&:first-of-type {
@@ -47,7 +47,7 @@ export const Header = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
-	margin-bottom: 1px;
+	margin-bottom: 8px;
 	font-size: 26px;
 	font-weight: normal;
 	background: #303030;

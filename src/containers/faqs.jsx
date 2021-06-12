@@ -3,7 +3,7 @@ import { Accordion } from '../components';
 import OptForm from '../components/opt-form';
 import faqsData from '../fixtures/faqs.json';
 
-export const FaqsContainer = () => {
+export function FaqsContainer() {
 	return (
 		<Accordion>
 			<Accordion.Title>Frequently Asked Questions</Accordion.Title>
@@ -19,10 +19,10 @@ export const FaqsContainer = () => {
 				<OptForm.Text>
 					Ready to watch? Enter your email to create or restart your membership
 				</OptForm.Text>
+				<OptForm.Break />
 				<OptForm.Input placeholder='Email Address' />
 				<OptForm.Button>Get Started</OptForm.Button>
-				<OptForm.Break />
 			</OptForm>
 		</Accordion>
 	);
-};
+}
